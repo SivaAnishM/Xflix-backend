@@ -1,0 +1,18 @@
+{
+  "name": "xflix_me_backend",
+  "version": "1.4.1",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "jest -i"
+  },
+  "dependencies": {
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "http-status": "^1.6.2",
+    "mongoose": "^7.4.1",
+    "moongoose": "^0.0.5",
+    "nodemon": "^3.0.1"
+  }
+}
